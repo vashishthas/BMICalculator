@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater inflater=getMenuInflater();
         inflater.inflate(R.menu.menu,menu);
         return true;
-//        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -76,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
         if(value.equals("Dark"))
         {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-//            setTheme(R.style.DarkTheme);
         }
 
 
@@ -121,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
                 if(weightFlag)
                 {
                     weightButton.setText(R.string.lbs_text);
-                    weightFlag=false;              //wt is false when in lbs
+                    weightFlag=false; //wt is false when in lbs
                 }
                 else
                 {
@@ -187,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
         String ans;
         ans = String.format("%.2f", result);
         res.setText(ans);
-//                    idw= (float) (50+((0.91*ht*100)-152.4)); ALTERNATE FORMULA
+//    idw= (float) (50+((0.91*ht*100)-152.4)); ALTERNATE FORMULA
         ht*=100;
         idealWeightCalculation();
     }
@@ -229,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
                 resetAll();
                 break;
             case R.id.chart:
-
+                startActivity(new Intent(MainActivity.this,BmiActivity.class));
                 break;
             case R.id.darkMode:
                 if(AppCompatDelegate.getDefaultNightMode()==AppCompatDelegate.MODE_NIGHT_YES)

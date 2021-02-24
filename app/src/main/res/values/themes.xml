@@ -12,8 +12,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="backgroundColor">#FCFEFF</item>
+        <item name="backgroundColor">#F0F2F3</item>
         <item name="textColor">@color/black</item>
+<!--        <item name="background">@drawable/chartBmi</item>-->
     </style>
-
 </resources>

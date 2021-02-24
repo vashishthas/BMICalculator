@@ -15,4 +15,5 @@
     <string name="lbs_text">lbs</string>
     <string name="inches_text">Inches</string>
     <string name="idealWeightError">Ideal Weight: ?</string>
+    <string name="bmi_chart">BMI Chart</string>
 </resources>
