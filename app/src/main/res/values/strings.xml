@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="msg1">Start hogging soon!</string>
+    <string name="msg2">Quick! Grab some protein bars!</string>
+    <string name="msg3">You are doing perfect!</string>
+    <string name="msg4">Start running!</string>
+    <string name="msg5">Hit the gym. NOW!</string>
+    <string name="male_text">Male</string>
+    <string name="female_text">Female</string>
+    <string name="weight_text">Weight</string>
+    <string name="height_text">Height</string>
+    <string name="calculate_text">Calculate</string>
+    <string name="cm_text">cm</string>
+    <string name="kg_text">Kg</string>
+    <string name="lbs_text">lbs</string>
+    <string name="inches_text">Inches</string>
+    <string name="idealWeightError">Ideal Weight: ?</string>
+</resources>
